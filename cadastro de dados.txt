@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cadastro de dados"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-28 01:44:09 "/>
+        <attribute name="created" value="QWx1bm87VVBMMi0wOUE7MjAyNS0wMi0yMTsiMDc6NDY6MTkgIjsyMjEz"/>
+        <attribute name="edited" value="QWx1bm87VVBMMi0wOUE7MjAyNS0wMi0yMTsiMTA6MzU6MDYgIjsxOzIzMDk="/>
+        <attribute name="edited" value="QWx1bm87VVBMMi0wOEE7MjAyNS0wMi0yODsiMDE6NDQ6MDkgIjsxOzIzMTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="repeticao" type="Integer" array="False" size=""/>
+            <for variable="repeticao" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;cadastro&quot; &amp; &quot; &quot; &amp; &quot; &quot; &amp; repeticao" newline="True"/>
+                <output expression="&quot;seja bem vindo ao sistema de cadastro de usuario&quot;" newline="True"/>
+                <output expression="&quot;por favor digite seu nome&quot;" newline="True"/>
+                <declare name="armnomes" type="String" array="False" size=""/>
+                <input variable="armnomes"/>
+                <output expression="armnomes" newline="True"/>
+                <output expression="&quot;agora me diga seu sobrenome&quot;" newline="True"/>
+                <declare name="armsobrenome" type="String" array="False" size=""/>
+                <input variable="armsobrenome"/>
+                <output expression="&quot;por favor digite seu cpf&quot;" newline="True"/>
+                <declare name="armcpf" type="String" array="False" size=""/>
+                <input variable="armcpf"/>
+                <output expression="&quot;obrigado&quot;" newline="True"/>
+                <output expression="&quot;digite sua idade&quot;" newline="True"/>
+                <declare name="armidade" type="String" array="False" size=""/>
+                <input variable="armidade"/>
+                <output expression="&quot;digite o seu endere&#231;o onde voce mora por favor&quot;" newline="True"/>
+                <declare name="armendere&#231;o" type="String" array="False" size=""/>
+                <input variable="armendere&#231;o"/>
+                <output expression="&quot;voce tem telefone fixo sim ou n&#227;o&quot;" newline="True"/>
+                <declare name="decisao" type="String" array="False" size=""/>
+                <input variable="decisao"/>
+                <if expression="decisao==&quot;sim&quot;">
+                    <then>
+                        <output expression="&quot;digite seu numero de telefone&quot;" newline="True"/>
+                        <declare name="tel" type="String" array="False" size=""/>
+                        <input variable="tel"/>
+                        <output expression="tel" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;o nome digitado foi:&quot; &amp; &quot; &quot; &amp; armnomes &amp;&quot;o sobrenome digitado foi:&quot; &amp; &quot; &quot; &amp; armsobrenome &amp; &quot;o cpf digitado foi:&quot; &amp; armcpf &amp; &quot; &quot; &amp; &quot;a idade digitada foi:&quot; &amp; armidade &amp;&quot; &quot; &amp; &quot;o endere&#231;o digitado foi:&quot; &amp; armendere&#231;o" newline="True"/>
+            </for>
+            <output expression="&quot;seja bem vindo ao sistema de cadastro de usuario&quot;" newline="True"/>
+            <output expression="&quot;por favor digite seu nome&quot;" newline="True"/>
+            <declare name="armnomes" type="String" array="False" size=""/>
+            <input variable="armnomes"/>
+            <output expression="armnomes" newline="True"/>
+            <output expression="&quot;agora me diga seu sobrenome&quot;" newline="True"/>
+            <declare name="armsobrenome" type="String" array="False" size=""/>
+            <input variable="armsobrenome"/>
+            <output expression="&quot;por favor digite seu cpf&quot;" newline="True"/>
+            <declare name="armcpf" type="String" array="False" size=""/>
+            <input variable="armcpf"/>
+            <output expression="&quot;obrigado&quot;" newline="True"/>
+            <output expression="&quot;digite sua idade&quot;" newline="True"/>
+            <declare name="armidade" type="String" array="False" size=""/>
+            <input variable="armidade"/>
+            <output expression="&quot;digite o seu endere&#231;o onde voce mora por favor&quot;" newline="True"/>
+            <declare name="armendere&#231;o" type="String" array="False" size=""/>
+            <input variable="armendere&#231;o"/>
+            <output expression="&quot;voce tem telefone fixo sim ou n&#227;o&quot;" newline="True"/>
+            <declare name="decisao" type="String" array="False" size=""/>
+            <input variable="decisao"/>
+            <if expression="decisao==&quot;sim&quot;">
+                <then>
+                    <output expression="&quot;digite seu numero de telefone&quot;" newline="True"/>
+                    <declare name="tel" type="String" array="False" size=""/>
+                    <input variable="tel"/>
+                    <output expression="tel" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;o nome digitado foi:&quot; &amp; &quot; &quot; &amp; armnomes &amp;&quot;o sobrenome digitado foi:&quot; &amp; &quot; &quot; &amp; armsobrenome &amp; &quot;o cpf digitado foi:&quot; &amp; armcpf &amp; &quot; &quot; &amp; &quot;a idade digitada foi:&quot; &amp; armidade &amp;&quot; &quot; &amp; &quot;o endere&#231;o digitado foi:&quot; &amp; armendere&#231;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
